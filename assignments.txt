@@ -1,0 +1,16 @@
+Create an interface named TvRemote with appropriate methods(switchOff(), switchOn(), changeChannel( int ch)) in it and use them in 3 different Branded TVs like BPLTv, SonyTv and PanasonicTv..
+add a default method to get Brand Details of the TV
+
+
+public class Account{
+private double balance;
+public double withdraw(double amount){
+if the amount>balance then throw LowBalanceException
+//returns updated balance
+}
+public double deposit(double amount){
+
+//returns updated balance
+
+}
+}
