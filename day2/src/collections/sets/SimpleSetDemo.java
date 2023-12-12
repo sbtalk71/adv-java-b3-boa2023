@@ -4,13 +4,15 @@ import java.util.Comparator;
 import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Vector;
 
 public class SimpleSetDemo {
 
 	public static void main(String[] args) {
 
 		// List<String> fruits=new ArrayList<String>();
-		List<String> fruits = new LinkedList<String>();
+		//List<String> fruits = new LinkedList<String>();
+		List<String> fruits = new Vector<String>();
 
 		fruits.add("apple");
 		fruits.add("banana");

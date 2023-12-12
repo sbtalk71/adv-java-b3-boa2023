@@ -1,6 +1,9 @@
 package collections.sets;
 
+import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 public class UserSetDemo {
@@ -21,8 +24,32 @@ public class UserSetDemo {
 		
 		// add a prefix " Welcome to Java " to every userId and print them
 		//Print all female users
+		
+		for(User user:usersSet) {
+			if(user.getGender().equals("female")) {
+				System.out.println(user);
+			}
+		}
 		//add male users to a new List
+		List<User> maleList= new ArrayList<User>();
+		for(User user:usersSet) {
+			if(user.getGender().equals("male")) {
+				maleList.add(user);
+			}
+		}
+		
+		maleList.sort(new UserSorter());
+		
+		System.out.println(maleList);
 
 	}
 
+}
+
+class UserSorter implements Comparator<User>{
+	@Override
+	public int compare(User u1, User u2) {
+		
+		return u1.getLocation().compareTo(u2.getLocation());
+	}
 }
