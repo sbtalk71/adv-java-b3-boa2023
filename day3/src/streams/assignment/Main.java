@@ -11,7 +11,7 @@ public class Main {
 		//List all the students with city Hyderabad
 		//find the student with mobile number 6666
 		//List all the students with pincode 50002
-		//
+		//Find the first student with Name Ranga
 	}
 
 }
