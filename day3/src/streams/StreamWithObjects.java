@@ -20,7 +20,7 @@ public class StreamWithObjects {
 				);
 		
 		//List all the users from Hyderabad
-		//List all the users having yahho mail
+		//List all the users having yahoo mail
 		//collect all the male users in a separate List
 		//Sort all the users by name
 		//change the location of Ranga to Hyderabad
