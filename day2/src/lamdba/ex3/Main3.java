@@ -13,6 +13,7 @@ public class Main3 {
 
 	public static void main(String[] args) {
 		
+		//int x=20;
 		Predicate<Integer> p=(s)->s%2==0; 
 		
 		Consumer<String> c= (s)->System.out.println(s);
