@@ -1,0 +1,3 @@
+this is a text file
+about an animal
+this is line 3
