@@ -10,9 +10,11 @@ public class SerializationDemo {
 		FileOutputStream fos=new FileOutputStream("data.ser");
 		ObjectOutputStream oos= new ObjectOutputStream(fos);
 		
-		User user = new User("100", "Kamal", "Bangalore", "male");
+		for(int i=1;i<6;i++) {
+		User user = new User("100"+i, "Kamal"+i, "Bangalore", "male");
 		
 		oos.writeObject(user);
+		}
 		System.out.println("Object Serialized...");
 		
 
